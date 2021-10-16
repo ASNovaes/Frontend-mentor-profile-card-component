@@ -1,10 +1,14 @@
 .l-textUserName {
+  display: inline;
   margin-right: 5px;
+  font-size: 18px;
 }
+
 .l-textUserOld {
   @extend %font-medium;
   color: $darkGrayishBlue;
 }
+
 .l-textUserLocation {
   @extend %font-medium;
   display: block;

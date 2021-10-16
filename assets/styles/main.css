@@ -344,7 +344,9 @@ a {
   cursor: pointer; }
 
 .l-textUserName {
-  margin-right: 5px; }
+  display: inline;
+  margin-right: 5px;
+  font-size: 18px; }
 
 .l-textUserOld {
   color: #6a6f81; }
@@ -369,6 +371,7 @@ a {
   align-items: center;
   border-radius: 1em;
   background-color: #fff;
+  margin: 20px;
   overflow: hidden;
   position: relative; }
 
