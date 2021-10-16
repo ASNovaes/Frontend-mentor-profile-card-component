@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  align-items: center;
+  background-color: $darkCyan;
+  background-image: url($bgImgTop), url($bgImgBottom);
+  background-position: right 52vw bottom 40vh, left 50vw top 50vh;
+  background-repeat: no-repeat;
+  color: $veryDarkDesaturatedBlue;
+  display: flex;
+  font: 700 1.8em $fontName;
+  justify-content: center;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+*,
+button,
+input {
+  border: none;
+  outline: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+}

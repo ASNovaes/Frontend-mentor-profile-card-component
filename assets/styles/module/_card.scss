@@ -1,0 +1,48 @@
+.card {
+  align-items: center;
+  border-radius: 1em;
+  background-color: #f7f5ec;
+  overflow: hidden;
+  position: relative;
+}
+
+.card__bg {
+  background: #fff url(../images/bg-pattern-card.svg) no-repeat;
+  background-size: cover;
+  height: 140px;
+  overflow: hidden;
+  width: 327px;
+}
+
+.card-photo {
+  @include align;
+  background-color: #fff;
+  display: inline-block;
+  height: 105px;
+  width: 105px;
+}
+
+.card-photo img {
+  height: auto;
+  border: 5px solid #fff;
+  width: 100%;
+}
+
+.card-photo,
+.card-photo img {
+  border-radius: 50%;
+}
+
+.card__body {
+  text-align: center;
+  padding: 70px 0 15px;
+}
+
+.card__footer {
+  align-items: center;
+  border-top: 1px solid hsl(227, 10%, 86%);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+}

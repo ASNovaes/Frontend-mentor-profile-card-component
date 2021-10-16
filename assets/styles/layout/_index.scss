@@ -1,0 +1,27 @@
+.l-textUserName {
+  margin-right: 5px;
+}
+.l-textUserOld {
+  @extend %font-medium;
+  color: $darkGrayishBlue;
+}
+.l-textUserLocation {
+  @extend %font-medium;
+  display: block;
+  color: $darkGrayishBlue;
+  font-size: 13px;
+  line-height: 2.5em;
+}
+
+.l-textInfo,
+.l-textTitleInfo {
+  display: block;
+  line-height: 1.5em;
+}
+
+.l-textTitleInfo {
+  @extend %font-medium;
+  color: $darkGrayishBlue;
+  letter-spacing: 0.2em;
+  font-size: 10px;
+}
